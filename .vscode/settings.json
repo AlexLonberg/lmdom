@@ -1,0 +1,14 @@
+{
+  "liveServer.settings.root": "demo/dist/",
+  "debug.node.autoAttach": "on",
+  "files.exclude": {
+    "node_modules/": true,
+    ".private/": false,
+    ".vscode/": false
+  },
+  "search.exclude": {
+    "node_modules/": true,
+    ".vscode/": true,
+    "demo/dist/": true
+  }
+}

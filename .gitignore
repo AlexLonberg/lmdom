@@ -1,0 +1,4 @@
+.private/
+node_modules/
+demo/dist/**/*.js
+demo/dist/**/*.js.map
