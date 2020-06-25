@@ -1,6 +1,6 @@
 {
   "name": "lmdom",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "lib JSDom",
   "author": "Alexander Lonberg <alexlonberg@gmail.com>",
   "repository": "https://github.com/AlexLonberg/lmdom.git",
@@ -18,13 +18,17 @@
     "core",
     "element"
   ],
+  "exports": {
+    ".": "./index.js",
+    "./element": "./element/index.js"
+  },
   "dependencies": {
-    "lmjs": "^0.3.0"
+    "lmjs": "^0.4.0"
   },
   "devDependencies": {
+    "@rollup/plugin-node-resolve": "^7.1.3",
     "eslint": "^6.8.0",
-    "rollup": "^2.6.1",
-    "@rollup/plugin-node-resolve": "^7.1.3"
+    "rollup": "^2.18.0"
   },
   "scripts": {
     "rollup.demo": "rollup --watch --config demo.config.js"
